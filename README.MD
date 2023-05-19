@@ -9,10 +9,13 @@ BUILD
 
 From root dir
 
-$ export MATCH_IT=/home/cr1tterp0wer/Projects/Match-it
+$ export MATCH_IT=/home/cr1tterp0wer/Projects/Match-itV2/Match3
 $ javac -cp $MATCH_IT/lib/jars/lwjgl_applet.jar:$MATCH_IT/lib/jars/lwjgl.jar:$MATCH_IT/lib/jars/lwjgl_util.jar:$MATCH_IT/lib/jars/slick.jar $MATCH_IT/src/**/*.java -d ./bin/
 
 RUN
 
 $ java -Djava.library.path=$MATCH_IT/lib/res/linux -cp $MATCH_IT/lib/jars/lwjgl_applet.jar:$MATCH_IT/lib/jars/lwjgl.jar:$MATCH_IT/lib/jars/lwjgl_util.jar:$MATCH_IT/lib/jars/slick.jar:$MATCH_IT/bin MAIN.Match3
+
+OR RUN JAR
+java -jar FatMatch.jar
 
